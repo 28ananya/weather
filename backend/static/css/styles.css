@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weather-card {
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card img {
+    margin-top: 10px;
+}
+
+.weather-card h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.weather-details {
+    margin-top: 15px;
+}
+
+.weather-details p {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+.weather-details strong {
+    color: #000;
+}
+
+/* Weather condition colors */
+.weather-card[data-condition="Clear"] {
+    background-color: #ffeb3b;
+}
+
+.weather-card[data-condition="Rain"] {
+    background-color: #90caf9;
+}
+
+.weather-card[data-condition="Clouds"] {
+    background-color: #cfd8dc;
+}
+
+.weather-card[data-condition="Mist"], 
+.weather-card[data-condition="Haze"] {
+    background-color: #b0bec5;
+}
+
+/* Error styling */
+.error {
+    color: red;
+    font-size: 1.2em;
+}
