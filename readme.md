@@ -40,3 +40,8 @@ Build the Docker image and start the containers:
     docker-compose up --build
 # Once the container is running, open your browser and go to:
     http://localhost:5000
+# additionals
+Extend the system to support additional weather parameters from the OpenWeatherMap
+API (e.g., humidity, wind speed) and incorporate them into rollups/aggregates.
+Explore functionalities like weather forecasts retrieval and generating summaries based
+on predicted conditions.
