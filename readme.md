@@ -18,8 +18,8 @@
     OpenWeatherMap API Key (Sign up here to get your API key).
 ## Installation
 ## Clone the repository
-    git clone https://github.com/your-username/weather-monitoring.git
-    cd weather-monitoring
+    git clone  git clone add origin https://github.com/28ananya/weather.git
+    cd weather
 ## Set up the configuration
     Create a configuration file to store your OpenWeatherMap API key:
 
